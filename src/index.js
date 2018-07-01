@@ -22,7 +22,7 @@ class Board extends React.Component {
 
   render() {
     return (
-      <div>
+    <div>
        <h2>TIC-TAC-TOE GAME</h2>
        <div className="background">
         <div className="board-row">
@@ -40,7 +40,7 @@ class Board extends React.Component {
           {this.renderSquare(7)}
           {this.renderSquare(8)}
         </div>
-       </div>
+	   </div>
       </div>
     );
   }
@@ -107,9 +107,9 @@ class Game extends React.Component {
 	var next =  'Next player: ' + (this.state.xIsNext ? '✖' : '〇');
    
     if (winner) {
-	  status = win;
+     status = win;
     } else {
-      status = next;
+     status = next;
     }
 
     return (
