@@ -22,9 +22,9 @@ class Board extends React.Component {
 
   render() {
     return (
-      <div>
-		<h2>「TIC-TAC-TOE GAME」</h2>
-		<div className="background">
+	<div>
+       <h2>TIC-TAC-TOE GAME</h2>
+       <div className="background">
         <div className="board-row">
           {this.renderSquare(0)}
           {this.renderSquare(1)}
@@ -40,8 +40,8 @@ class Board extends React.Component {
           {this.renderSquare(7)}
           {this.renderSquare(8)}
         </div>
-	   </div>
-      </div>
+	  </div>
+     </div>
     );
   }
 }
@@ -67,7 +67,7 @@ class Game extends React.Component {
     if (calculateWinner(squares) || squares[i]) {
       return;
     }
-    squares[i] = this.state.xIsNext ? "X" : "O";
+    squares[i] = this.state.xIsNext ? "✖" : "〇";
     this.setState({
       history: history.concat([
         {
@@ -124,7 +124,7 @@ class Game extends React.Component {
           <div className={status === next ? 'status_next' : 'status_win'}>{status}</div>
           <ol>{moves}</ol>
         </div>
-		<div className = {status === next ? 'no_alert_box' : 'alert_box'}>"GAME OVER!!"</div> 
+        <div className = {status === next ? 'no_alert_box' : 'alert_box'}>"GAME OVER!!"</div> 
       </div>  	  
     );
   }
