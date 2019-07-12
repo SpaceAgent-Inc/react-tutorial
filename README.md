@@ -7,9 +7,9 @@ This is just a practice about react
 
 ### how to run
 1. download node.js
-2. npm install
 
-3. run with comment below
+2. run with comment below
 ```
+npm install
 npm start
 ```
