@@ -1,11 +1,16 @@
-# React.js Tutorial
+## react-tutorial
+I made a simple Tic-Tac-Toe temple accroding to react-tutorial,
+This is just a practice about react
 
-## 開発していただきたい内容
+### preview
+[click here to preview](https://kisky3.github.io/react-tutorial)
+<img src="./preview.png" style="width:400px">
 
-チュートリアルの内容に沿って、tic-tac-toeゲームを開発してください。  
-https://reactjs.org/tutorial/tutorial.html
+### how to run
+1. download node.js
 
-提出期限：7月2日（月）中
-
-完了しましたら、https://github.com/SpaceAgent-Inc/react-tutorial/issues/1 をクローズしてください。  
-よろしくお願いします。
+2. run with comment below
+```
+npm install
+npm start
+```
